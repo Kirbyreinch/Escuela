@@ -1,0 +1,22 @@
+Pasos branch:
+
+en la rama main
+
+venv\Scripts\activate                               para activar el ambiente virtual
+
+git branch                                          para ver los ramas que se tiene creadas
+git branch nombre                                   para crear la rama nombre
+git branch -d nombre                                para borrar la rama nombre
+git checkout main                                   para pasarnos a la rama main
+git pull                                            para traer lo que esta actualmente en el repositorio de github
+
+en la rama creada
+
+git add .                                           para decirle a Git qué cambios se realizarán en la próxima confirmación
+git commit -m  "comentario"                         para fijar en el historial del proyecto una versión "segura" con todos los cambios
+
+regresar a la rama main
+
+(hacer el pull por si acaso)
+git merge nombre                                    para combinar la rama main con la rama nombre
+git push                                            para subir lo que esta en el proyecto local en el repositorio de github

@@ -1,0 +1,19 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Ejecutar Servidor Uvicorn",
+            "type": "shell",
+            "command": "venv\\Scripts\\activate.bat && uvicorn main:app --reload",
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "reveal": "always"
+            }
+        }
+
+    ]
+}
